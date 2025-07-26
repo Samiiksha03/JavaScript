@@ -1,5 +1,5 @@
 // Conersion Operations
-// Basically these are used to convert a DT into another DT(Ex. number to string)
+// Basically conversions are used to convert a DT into another DT(Ex. number to string)
 // Syntax is just the required DT the variable
 
 // Conversion of number DT to String DT
@@ -28,4 +28,39 @@ console.log(yy);
 // "Samiksha" => true
 // "" => false
 
+// ********************************Operations**************************************
+
+// add(+), sub(-), mult(*), div(/), modulus(%)reminder of div, increment +1(++), decrement -1(--), exponentiation(**)power of
+
+let value = 3
+let negvalue = -value
+console.log(negvalue);
+// negative operation
+
+// All operations
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2%2);
+// console.log(2++);
+// console.log(2--);
+// console.log(2**);
+
+
+// Addtion of two values
+let abc = 1
+let bca = 2
+let cba = abc + bca
+console.log(cba);
+
+// if the first value has "" then all values will be considered as strings
+console.log("1" + 2 + 2);
+// => 122
+
+
+// if the last value has "" then only last value is string are the operations will be performed
+console.log(1 + 2 + "3");
+// => 33
 
